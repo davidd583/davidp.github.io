@@ -241,6 +241,10 @@ html{
 
 }
 
+.aboutme a{
+    text-decoration: none;
+}
+
 .skills {
     background-color: #252a2e;
     color: #fff;
