@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">Nick</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#aboutme">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#curriculum">Curriculum</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <!-- <li><a href="#contact">Contact</a></li> -->
+                </ul>
+            </nav>
+            <div class="responsive-nav" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- START SECTION -->
+    <section id="start" class="start">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="/img/3x4 Foto Fondo Blanco.jpg" alt="">
+            </div>
+            <h1>ARTURO PORRAS</h1>
+            <h2>Telecommunications Engineer</h2>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                <a href="#" id="copyEmail"><i class="fa-regular fa-envelope"></i></a>     
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>    
+                <div id="copiedEmailMessage" style="display:none;">El email ha sido copiado con éxito.</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">  
+            <h2>About me</h2>   
+            <p><span>Hi, My name is Arturo</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quod, suscipit perferendis consequuntur sequi expedita corrupti alias, consectetur quis tempore deleniti ullam sed neque! Architecto totam nam deserunt nisi magnam.</p>
+
+            <div class="row">
+                <div class="col">
+                    <h3>Personal Informatión</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            01-08-1998
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            (+57) 323 880 4253
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            holakihace@example.com
+                        </li>
+                        <li>
+                            <strong>Ubication</strong>
+                            Bogotá, Colombia
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>Telecommunications engineer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="interests-container">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Games</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Travels</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-seedling"></i>
+                            <span>Nature</span>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <button>
+                Download CV <i class="fa-solid fa-file-arrow-down"></i>
+                <span class="overlay"></span>
+            </button>
+            
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills" class="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Tecnical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+                            <div class="progress javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="progress html">
+                                <span>49%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="progress photoshop">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="progress python">
+                                <span>34%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CCNA</span>
+                        <div class="skill-bar">
+                            <div class="progress ccna">
+                                <span>56%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Seguridad Informática</span>
+                        <div class="skill-bar">
+                            <div class="progress informatic-security">
+                                <span>58%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Telemática</span>
+                        <div class="skill-bar">
+                            <div class="progress telematics">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Señales y Sistemas</span>
+                        <div class="skill-bar">
+                            <div class="progress signalsandsystems">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Antenas y Comunicaciones</span>
+                        <div class="skill-bar">
+                            <div class="progress antennasandcommunications">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redes</span>
+                        <div class="skill-bar">
+                            <div class="progress networks">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM SECTION -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left-a">
+                    <h3>Education</h3>
+                    <div class="item left-b">
+                        <h4>Telecommunications Engineer</h4>   
+                        <span class="location">Santo Tomás University</span>
+                        <span class="stage">2016-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum similique dolore deleniti ad culpa eaque velit quibusdam minus beatae ea, nulla quod, voluptatem temporibus expedita sequi inventore facere veniam!</p>
+                        <div class="connector-l">
+                            <div class="circle-l"></div>
+                        </div>
+                    </div>
+                    <div class="item left-b">
+                        <h4>Telecommunications Engineer</h4>   
+                        <span class="location">Santo Tomás University</span>
+                        <span class="stage">2016-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum similique dolore deleniti ad culpa eaque velit quibusdam minus beatae ea, nulla quod, voluptatem temporibus expedita sequi inventore facere veniam!</p>
+                        <div class="connector-l">
+                            <div class="circle-l"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col right-a">
+                    <h3>Labour Experience</h3>
+                    <div class="item right-b">
+                        <h4>Coming Soon</h4>   
+                        <span class="location">Santo Tomás University</span>
+                        <span class="stage">2016-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum similique dolore deleniti ad culpa eaque velit quibusdam minus beatae ea, nulla quod, voluptatem temporibus expedita sequi inventore facere veniam!</p>
+                        <div class="connector-r">
+                            <div class="circle-r"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="item-right">
+                        <h4>Telecommunications Engineer</h4>   
+                        <span class="location">Santo Tomás University</span>
+                        <span class="stage">2016-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum similique dolore deleniti ad culpa eaque velit quibusdam minus beatae ea, nulla quod, voluptatem temporibus expedita sequi inventore facere veniam!</p>
+                        <div class="connector-d">
+                            <div class="circle-d"></div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/coomingsoon.png" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photographics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+
+    <footer>
+        <a href="#start" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>   
+
+</body>
+</html>
